@@ -1,0 +1,6 @@
+# We include this gitignore file to untrack the following;
+
+# Untrack Emacs swap files
+~
+#Untrack vi/vim swap files
+*.sw[a-z]
