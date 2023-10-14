@@ -8,11 +8,12 @@
 
 int _printf(const char *format, ...)
 {
+	int count;
 	va_list args;
 
 	va_start(args, format);
 
-	int count = 0;
+	count = 0;
 
 	while (*format != '\0')
 	{
@@ -23,7 +24,7 @@ int _printf(const char *format, ...)
 		}
 		else
 		{
-			*format++;
+			format++;
 			if (*format == 'c')
 			{
 				count += _putchar(va_arg(args, int));

@@ -1,19 +1,11 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 #include <stdarg.h>
 #include <limits.h>
-
-/**
-* _putchar - writes the character c to stdout
-* @c: The character to be written
-* Return: On success @c else -1.
-*/
 #include <unistd.h>
 
-int _putchar(char c)
-{
-	return(write(1, &c, 1));
-}
+int _printf(const char *format, ...);
+int _putchar(char c);
 
 #endif
