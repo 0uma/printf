@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * _printf - a function that prints strings, characters, and "%"
+ * @format: a parameter
+ * Return: returns an int
+ */
 
 int _printf(const char *format, ...)
 {

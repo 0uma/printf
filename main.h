@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <stdarg.h>
+#include <limits.h>
 
 /**
 * _putchar - writes the character c to stdout
