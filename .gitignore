@@ -5,3 +5,5 @@
 #Untrack vi/vim swap files
 *.sw[a-z]
 .vscode
+a.out
+main.c
