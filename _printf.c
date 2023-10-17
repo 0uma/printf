@@ -22,7 +22,12 @@ int _printf(const char *format, ...)
 			count++;
 		}
 		else
+		{
+			format++;
+			if (*format == '\0')
+				break;
 			count += format_specifier(*++format, args);
+		}
 		format++;
 	}
 	va_end(args);
