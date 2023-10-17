@@ -4,6 +4,7 @@
  * @format: a parameter
  * Return: returns an int
  */
+
 int _printf(const char *format, ...)
 {
 	int count = 0;
